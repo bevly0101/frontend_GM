@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+*::selection{
+    background-color: #292929;
+    color: #ea4a00;
+}
+*::-webkit-textfield-decoration-container{
+
+}
+body{
+    background-color: antiquewhite;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    .siteScop{
+        background-color: purple;
+    }
+}
+#root{
+    height: 100vh;
+    width: 100vw;
+}

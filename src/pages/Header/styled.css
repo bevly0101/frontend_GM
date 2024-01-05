@@ -1,0 +1,14 @@
+@keyframes Slide_header_Page_show {
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.motion_div_header{
+    display: none;
+    transform: translateX(200px);
+    content: 'aaaaaaai';
+}

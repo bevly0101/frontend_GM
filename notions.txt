@@ -1,0 +1,85 @@
+
+import { } from "react-icons/md";
+    download icon - MdPlayForWork
+    download complete -MdFileDownloadDone
+    music note - MdAudiotrack   
+
+
+background - 21201f
+383838
+orange - ef6817
+
+727271
+5f605d
+
+
+ai AiFillHome
+ai AiOutlineSearch
+bi BiSolidPlaylist
+bi BiCloudDownload
+
+ri RiSpotifyFill -- RiYoutubeFill -- 
+fa6  FaDeezer
+
+______________________________________________________
+
+Black = 080808
+azulClaro = 3b82f6
+azulForte = 413dff
+cinza = aoaac3
+verde = b6f866
+
+verdeSpotify = 04fb71
+gradientDeezer = 7117ea ea6060
+
+*** GRADIENTSS
+
+green - 42e695 3bb2b8
+
+************************ paleta****************
+ yellow - f4ca38
+ dark - 2a2426
+ gray - 38373d
+-------------------
+gradient-violet = f8a4d8 6c63ff
+violet = 6c63ff
+dark - 5a617o
+gray - 9da5b8
+light-gray dadfea
+white - ffffff
+---------------
+orange - ea4a00
+light - cabdad
+dark - 292929
+white - dde3df
+
+* TASK LIST *
+
+# fazer mais uma parte na home dizendo sobre criar playlist.
+-
+# scroll com o header fixo na parte superior da tela.
+
+
+----------------------------------------
+const fs = require('fs');
+            const ytdl = require('ytdl-core');
+            res.header("Content-Disposition", `attachment; filename="${req.query.title}.mp3`);
+            ytdl(`http://www.youtube.com/watch?v=${videoID}`,{format:'webm', quality:'highestaudio'}).on('data', data=>{}).pipe(res)
+
+
+conseguir terminar a parte da playlist
+
+https://open.spotify.com/playlist/1em2p7LTv88hsmB9eccWyW?si=caefc01f4edc47bf
+
+
+<Div_main>
+    <img className="img_music" src={STATE.search_something.playlist.data.tracks[t].img}/>
+    <Div_inf_msc>
+        <span className="Title">{STATE.search_something.playlist.data.tracks[t].name}</span>
+        <span className="Artist">{STATE.search_something.playlist.data.tracks[t].artist}</span>
+    </Div_inf_msc>
+</Div_main>
+<Div_icon_download>
+    <HiCloudDownload onClick={()=>Click_dl_music()}/>
+    <IoIosMore/>
+</Div_icon_download>
