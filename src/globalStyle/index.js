@@ -24,3 +24,11 @@ export const Colors_Header = {
     fill_icons:'#ea4a00',
 
 }
+
+//                        <img className="img_music" src={t.image}/>
+/**
+ * <Div_inf_msc>
+                            <span className="Title">{t.name}</span>
+                            <span className="Artist">{t.artist}</span>
+                        </Div_inf_msc>
+ */

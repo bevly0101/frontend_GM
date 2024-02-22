@@ -5,6 +5,7 @@ import { Header_scop ,Logo_img, Div_Header, Div_img, Div_content, Contents_heade
 
 import { AiFillHome , AiOutlineSearch} from "react-icons/ai";
 import { BiSolidPlaylist, BiCloudDownload } from "react-icons/bi";
+import { FaLink } from "react-icons/fa6";
 
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -36,7 +37,7 @@ export default function Header(){
         },300)
     }
     const handle_click_page = (evt,id)=>{
-        if(id === 3) return
+        //if(id === 3) return
         const Icons = document.querySelectorAll('.contents_icons .icon')
         color_before_click_options_page(Icons,id)
         dispath({
@@ -71,11 +72,6 @@ export default function Header(){
                         <motion.div className="motion_header_options"  whileTap={{scale:0.5, opacity:0}}>
                             <Contents_header_div className="icon"  onClick={(e)=>handle_click_page(e,2)}>
                                 <BiSolidPlaylist/>
-                            </Contents_header_div>
-                        </motion.div>
-                        <motion.div className="motion_header_options"  whileTap={{scale:0.5, opacity:0}}>
-                            <Contents_header_div className="icon"  onClick={(e)=>handle_click_page(e,3)}>
-                                <BiCloudDownload/>
                             </Contents_header_div>
                         </motion.div>
                 </Div_content>

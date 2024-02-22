@@ -12,6 +12,12 @@ const initialState = {
         header_is_visible:true
     },
     search_something:{
+        change_results:0,
+        search_on:false,
+        error_request:{
+            any_error:false,
+            error_msg:''
+        },
         only_music:{
             data:{},
             researched:false
@@ -45,7 +51,6 @@ const reducer = (state = initialState, action) =>{
         case 'CLICK_HAMBURGUER':{
             const newState = {...state}
             newState.hamburguer = !newState.hamburguer
-            console.log(newState)
             return newState
             
         }
@@ -64,6 +69,24 @@ const reducer = (state = initialState, action) =>{
             const newState = {...state}
             newState.search_something.playlist.data = action.data
             newState.search_something.playlist.researched = true
+            return newState
+            
+        }
+        case 'START_NEW_SEARCH':{
+            const newState = {...state}
+            newState.search_something.search_on = !action.finished
+            return newState
+        }
+        case 'ERROR_REQUEST':{
+            const newState = {...state}
+            newState.search_something.error_request.any_error = !action.msg_time_over
+            newState.search_something.error_request.error_msg = action.error_msg
+            return newState
+            
+        }
+        case 'CHANGE_RESULT':{
+            const newState = {...state}
+            newState.search_something.change_results = action.changeto
             return newState
 
         }

@@ -71,15 +71,3 @@ conseguir terminar a parte da playlist
 
 https://open.spotify.com/playlist/1em2p7LTv88hsmB9eccWyW?si=caefc01f4edc47bf
 
-
-<Div_main>
-    <img className="img_music" src={STATE.search_something.playlist.data.tracks[t].img}/>
-    <Div_inf_msc>
-        <span className="Title">{STATE.search_something.playlist.data.tracks[t].name}</span>
-        <span className="Artist">{STATE.search_something.playlist.data.tracks[t].artist}</span>
-    </Div_inf_msc>
-</Div_main>
-<Div_icon_download>
-    <HiCloudDownload onClick={()=>Click_dl_music()}/>
-    <IoIosMore/>
-</Div_icon_download>

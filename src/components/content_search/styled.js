@@ -22,3 +22,8 @@ export const Container = styled.div`
         align-items: center;
     }
 `
+export const Index = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`

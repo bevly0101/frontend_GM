@@ -37,13 +37,17 @@ export const Scop_plataforms = styled.div`
     height: 20vh;
     width: 100%;
     max-width: 900px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 2em;
     .cliked{
         box-shadow: 10px 10px 137px 0px rgba(0,0,0,0.57);
         -webkit-box-shadow: 10px 10px 137px 0px rgba(0,0,0,0.57);
         -moz-box-shadow: 10px 10px 137px 0px rgba(0,0,0,0.57);
         transform: translateY(-20px);
+    }
+    span{
+        font-family: 'Public Sans', sans-serif;
     }
     `
 export const Content_plataform = styled.div`

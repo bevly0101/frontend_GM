@@ -23,7 +23,7 @@ export default function Content_home(){
     }
     return (
         <Container className="home_container page">
-            <Text_download className="Text_titile_home">Baixe sua playlist agora!!!</Text_download>
+            <Text_download className="Text_titile_home">Your playlist with you NOW!!!</Text_download>
             <Scop_plataforms>
                 <Content_plataform className="ctPtfm" onClick={(e)=>handle_choose_plataform(e,0)}>
                     <RiSpotifyFill className="spficon"/>
@@ -31,15 +31,10 @@ export default function Content_home(){
                         <Button_getIt>GET IT</Button_getIt>
                     </Scop_buttonGetit>
                 </Content_plataform>
+                <span>OR</span>
                 <Content_plataform  className="ctPtfm" onClick={(e)=>handle_choose_plataform(e,1)}>
                     <RiYoutubeFill className="yticon"/>
                     <Scop_buttonGetit className="scp_btn" onClick={(e)=>handle_click_getIt(e,1)}>
-                        <Button_getIt>GET IT</Button_getIt>
-                    </Scop_buttonGetit>
-                </Content_plataform>
-                <Content_plataform  className="ctPtfm"onClick={(e)=>handle_choose_plataform(e,2)}>
-                    <FaDeezer className="dzricon"/>
-                    <Scop_buttonGetit className="scp_btn" onClick={(e)=>handle_click_getIt(e,2)}>
                         <Button_getIt>GET IT</Button_getIt>
                     </Scop_buttonGetit>
                 </Content_plataform>

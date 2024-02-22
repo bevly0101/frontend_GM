@@ -11,7 +11,7 @@ export default function Home(){
 
     return(
         <Div_home>
-            <Header_home type="Msc" input="search music"/>
+            <Header_home type="Msc" input="search music name or paste youtube link"/>
             <Content_home/>
         </Div_home>
     )
