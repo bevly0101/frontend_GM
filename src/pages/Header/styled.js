@@ -5,17 +5,14 @@ export const Div_Header = styled.div`
     background-color: transparent;
     color: white;
     width: 8%;
-    max-width: 200px;
+    max-width: 500px;
     min-width: 140px;
     height: 100vh;
-    padding: 10px;
     font-size: 27px;
+    padding: 0.3em;
+    left: 0;
     flex-direction: column;
-    //border: 1px solid #21201f;
-    .show_options{
-        animation: Slide_header_Page_show 500ms ease-out;
-        margin-left: 3em;
-    }
+
 `
 
 // -------- LOGO Header

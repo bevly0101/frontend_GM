@@ -10,6 +10,7 @@ export const Scop_all = styled.div`
     height: 75vh;
     overflow: scroll;;
     align-items: center;
+    padding: 4em;
 `
 
 export const Div_Scop = styled.div`
@@ -19,21 +20,22 @@ export const Div_Scop = styled.div`
     box-shadow: 6px -5px 57px -9px rgba(0,0,0,0.36);
     -webkit-box-shadow: 6px -5px 57px -9px rgba(0,0,0,0.36);
     -moz-box-shadow: 6px -5px 57px -9px rgba(0,0,0,0.36);
-    width: 80%;
-    height: 15vh;
+    width: 90%;
     border-radius: 2em;
     font-family: 'Public Sans';
+    height: clamp(100px, 140px, 200px); 
     
-`
+    `
 export const Div_main = styled.div`
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: clamp(200px, 230px, 300px); 
+    width: 90%;
     max-width: 500px;
     background: url(${(p)=>p.url});
     -webkit-mask-image: linear-gradient(to left, transparent 15%, black 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    height: clamp(100px, 140px, 200px); 
     border-radius: 2em 0 0 2em;
 `
 
@@ -42,20 +44,25 @@ export const Div_main = styled.div`
 export const Div_inf_msc = styled.div`
     display: flex;
     flex-direction: column;
-    width: 190px;
-    height: 100%;
+    width: 90%;
+    height: 140px;
     align-items: start;
-    justify-content: center ;
-    padding: 0 0 0 10px;
+    overflow-y: scroll;
+    justify-content: start ;
+    padding:10px;
     text-shadow: black;
     .Title{
         font-weight: bold;
         position: relative;
         right: 0;
+        text-overflow: ellipsis;
+        font-size: clamp(1rem, 2rem, rem); 
     }
     .Artist{
         position: relative;
-        opacity:90%
+        text-overflow: ellipsis;
+        opacity:90%;
+        font-size: clamp(1rem, 2rem, rem); 
     }
 `
 export const Div_icon_download = styled.div`

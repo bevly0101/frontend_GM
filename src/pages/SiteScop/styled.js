@@ -9,6 +9,7 @@ export const Site_scop = styled.div`
     justify-content: start;
     background-color: ${Background};
     width: 100%;
+    padding: 0.5em;
     @media only screen and (max-width: 699px){
         .Header_app{
             display: none;

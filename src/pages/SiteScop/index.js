@@ -20,7 +20,7 @@ export default function SiteScop(){
     return (
         <Site_scop className="siteScop">
             {window.screen.availWidth>700 ? <Header/>:
-            <motion.div className="motion_header" transition={{type: "spring",stiffness: 200,damping: 30}} animate={STATE.header_inf.header_is_visible ? {x:80}:{x:-500}}>
+            <motion.div className="motion_header">
                 <Header/>
             </motion.div>
             }

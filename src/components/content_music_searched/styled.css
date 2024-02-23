@@ -18,3 +18,10 @@
 
     background-color: transparent;
 }
+.divScop ::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.divScop::-webkit-scrollbar-corner{
+    background-color: transparent;
+}

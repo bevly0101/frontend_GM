@@ -26,18 +26,15 @@ export default function Get_playlist_page(){
             tracks.push(
                 <>
                     <Div_Scop className="divScop">
-                        <Div_main>
-                            <img className="img_music" src={tr.img}/>
-                            <Div_inf_msc>
-                                <span className="Title">{tr.name}</span>
-                                <span className="Artist">{tr.artist}</span>
-                            </Div_inf_msc>
-                        </Div_main>
+                        <Div_main url={tr.img}></Div_main>
+                        <Div_inf_msc>
+                            <span className="Title">{tr.name}</span>
+                            <span className="Artist">{tr.artist}</span>
+                        </Div_inf_msc>
                         <Div_icon_download>
                             <motion.div transition={{type: "spring",stiffness: 1000,damping: 40}} whileTap={{scale:0.8}}>
                                 <HiCloudDownload onClick={()=>Click_dl_music(`${tr.name} by ${tr.artist}`,'name')}/>
                             </motion.div>
-                            <IoIosMore/>
                         </Div_icon_download>
                     </Div_Scop>
                 </>

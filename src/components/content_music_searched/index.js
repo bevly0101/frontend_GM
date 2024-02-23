@@ -89,7 +89,9 @@ export default function Searched_music(){
                 <span onClick={(e)=>handle_change_results(e,1)}><RiYoutubeFill/>YouTube</span>
             </Result_options>
         </Change_results>
-        {RESULT}
+        <motion.div>
+            {RESULT}
+        </motion.div>
         </Index>
     )
 }
