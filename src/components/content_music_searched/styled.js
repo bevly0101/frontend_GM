@@ -103,9 +103,12 @@ export const Change_results = styled.div`
         display: flex;
         cursor: pointer;
         border-bottom: 3px solid transparent;
+        height: 7vh;
+        transition: all 500ms ease-out;
     }
     span:nth-child(${function(props){return props.showit+1}}){
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid  ${Colors.Orange};
+        color:  ${Colors.Orange};
 
     }
     .changed{

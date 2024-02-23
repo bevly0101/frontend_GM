@@ -27,7 +27,6 @@ export default function Searched_music(){
     }
     const handle_change_results = (evt,r)=>{
         dispath({type:'CHANGE_RESULT', changeto:r})
-        console.log(STATE.search_something.change_results)
     }
     const response_yt = ()=>{
         const yt_reponse = [];

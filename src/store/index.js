@@ -88,6 +88,14 @@ const reducer = (state = initialState, action) =>{
             const newState = {...state}
             newState.search_something.change_results = action.changeto
             return newState
+            
+        }
+        case 'UPDATE_INPUT_SEARCH':{
+            const newState = {...state}
+            newState.input= action.content
+            console.log(newState)
+
+            return newState
 
         }
 
