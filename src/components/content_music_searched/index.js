@@ -6,12 +6,15 @@ import './styled.css'
 
 import { useSelector, useDispatch } from "react-redux";
 
+
 import { url } from "../../things";
 
 import { HiCloudDownload } from "react-icons/hi";
+import { IoIosMore } from "react-icons/io";
 import {RiSpotifyFill, RiYoutubeFill} from "react-icons/ri";
 
-import { motion } from "framer-motion"
+import { PiYoutubeLogo, PiSpotifyLogo } from "react-icons/pi";
+import { motion, spring } from "framer-motion"
 
 import {Div_Scop, Div_inf_msc, Div_icon_download, Scop_all, Div_main,Results_from,Index,Change_results,Result_options} from './styled'
 

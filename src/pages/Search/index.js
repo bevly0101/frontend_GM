@@ -16,6 +16,7 @@ export default function Search(){
         <>
             <Header_home type="Msc" input="search music"/>
             <Content_Search/>
+
         </>
     )
 }

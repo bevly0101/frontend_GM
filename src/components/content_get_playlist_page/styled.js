@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import * as Colors from '../../globalStyle'
 
+
+
+//
 export const Index_inf_pl = styled.div`
     background-color: transparent;
     display: flex;
@@ -32,6 +35,9 @@ export const Img_pl = styled.img`
 -moz-box-shadow: 13px 17px 58px 6px rgba(0,0,0,0.37);
 
 `
+
+
+
 export const Scop_all = styled.div`
     display: flex;
     flex-direction: column;
@@ -40,6 +46,8 @@ export const Scop_all = styled.div`
     overflow: scroll;
     align-items: center;
 `
+
+
 export const Div_Scop = styled.div`
     display: flex;
     justify-content: space-between;
@@ -51,6 +59,7 @@ export const Div_Scop = styled.div`
     height: 300px;
     border-radius: 2em;
     font-family: 'Public Sans';
+    
 `
 export const Div_main = styled.div`
     display: flex;
@@ -63,6 +72,7 @@ export const Div_main = styled.div`
     background-size: cover;
     border-radius: 2em 0 0 2em;
 `
+
 export const Div_inf_msc = styled.div`
     display: flex;
     flex-direction: column;

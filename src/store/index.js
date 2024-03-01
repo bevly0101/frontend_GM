@@ -30,6 +30,8 @@ const initialState = {
 }
 
 const reducer = (state = initialState, action) =>{
+    //console.warn(action.type + ' ACTION')
+
     switch (action.type) {
         case 'NEW_RESULT_CONTENT_LINK':{
             const newState = {...state}
@@ -91,7 +93,10 @@ const reducer = (state = initialState, action) =>{
         case 'UPDATE_INPUT_SEARCH':{
             const newState = {...state}
             newState.input= action.content
+            console.log(newState)
+
             return newState
+
         }
 
         default: return state;

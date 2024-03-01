@@ -19,7 +19,7 @@ export const Container = styled.div`
         .Text_titile_home{
             font-size: 40px;
         }
-    }
+}
 
 `
 export const Text_download = styled.p`
