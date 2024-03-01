@@ -1,20 +1,25 @@
-/* eslint-disable react/jsx-pascal-case */
 import React from "react";
+
 import { useSelector } from "react-redux";
 
 import { url } from "../../things";
+
 import '../content_music_searched/styled.css'
 
-import { HiCloudDownload } from "reac t -icons/hi";
+import { HiCloudDownload } from "react-icons/hi";
+import { IoIosMore } from "react-icons/io";
 
-import { motion } from "framer-motion"
+import { motion, spring } from "framer-motion"
 
-// import styled components 
-import {Div_Scop, Div_inf_msc, Div_icon_download, Scop_all, Div_main,Index_inf_pl,Img_pl} from './styled'
+import {Div_Scop, Div_inf_msc, Div_icon_download, Scop_all, Div_main,Index_inf_pl,Img_pl, Empty} from './styled'
 
 export default function Get_playlist_page(){
     const STATE = useSelector(state=>state);
-    const Click_dl_music = (tr,type)=> {window.location.href = `${url}/dlMusic?title=${tr}&type=${type}`};
+    const Click_dl_music = (tr,type)=>{
+        window.location.href = `${url}/dlMusic?title=${tr}&type=${type}`;
+
+        
+    }
     const tracks_playlist = ()=>{
         const tracks = [];
         (STATE.search_something.playlist.data.tracks).forEach(tr => {
