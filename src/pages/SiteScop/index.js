@@ -12,11 +12,6 @@ import Header from '../Header';
 import Main from '../Main'
 
 export default function SiteScop(){
-    const STATE = useSelector(state=> state)
-    const dispath = useDispatch();
-    if(window.screen.availWidth<700){
-
-    }
     return (
         <Site_scop className="siteScop">
             {window.screen.availWidth>700 ? <Header/>:

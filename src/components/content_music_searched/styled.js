@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-import * as Colors from '../../globalStyle'
-import { func } from "prop-types";
+import * as Colors from '../../globalStyle';
 
 export const Scop_all = styled.div`
     display: flex;

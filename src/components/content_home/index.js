@@ -1,13 +1,13 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/jsx-pascal-case */
 import React from "react";
 
 import {RiSpotifyFill, RiYoutubeFill} from "react-icons/ri";
-import {FaDeezer} from "react-icons/fa6";
 
 import {Container,Text_download, Scop_plataforms, Content_plataform, Button_getIt,Scop_buttonGetit} from './styled'
 import './styled.css'
 
-import { useDispatch , useSelector} from "react-redux";
+import { useDispatch } from "react-redux";
 
 
 export default function Content_home(){
