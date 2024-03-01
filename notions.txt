@@ -71,3 +71,7 @@ conseguir terminar a parte da playlist
 
 https://open.spotify.com/playlist/1em2p7LTv88hsmB9eccWyW?si=caefc01f4edc47bf
 
+
+dispath({type:'ERROR_REQUEST',msg_time_over:false,error_msg:msg})
+setTimeout(()=>dispath({type:'ERROR_REQUEST',msg_time_over:true,error_msg:''}),2000)
+

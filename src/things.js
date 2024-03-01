@@ -1,1 +1,1 @@
-export const url = 'http://192.168.18.3:3456'
+export const url = 'richa3645.c34.integrator.host/backend'
