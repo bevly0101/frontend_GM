@@ -17,6 +17,7 @@ export default function App(){
     <Provider store={store}>
         <Router history={history}>
             <SiteComponent_scop/>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7251421938417844"crossorigin="anonymous"></script>
         </Router>
     </Provider>
     )
