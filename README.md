@@ -1,6 +1,5 @@
 ![certificado](https://github.com/bevly0101/frontend_gm/blob/main/public/images/logo_getmusic.png?raw=true)
-#
-> technologies used in front-end developement:
+#### technologies used in front-end developement:
 ![Badge](https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT)
 #
 > Project status: developing :warning:
@@ -12,4 +11,5 @@
 - [x]  search any sound
 - [x]  search results from spotify and youtube
 
-# How to use
+# How to use :grey_question:
+
