@@ -1,5 +1,4 @@
 ![certificado](https://github.com/bevly0101/frontend_gm/blob/main/public/images/logo_getmusic.png?raw=true)
-# [access](https://frontend-gm.vercel.app)
 > ![Badge](https://img.shields.io/static/v1?label=Status&message=developing&color=yellow&style=for-the-badge&logo=)
 #### technologies used in front-end developement:
 ![Badge](https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT)
