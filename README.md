@@ -14,4 +14,4 @@
 
 ## download musics from spotify and YouTube links
 [<img src="" width="600" height="300"
-/>](https://github.com/bevly0101/frontend_gm/blob/main/public/images/0610.mp4)
+/>](https://github.com/bevly0101/frontend_gm/blob/main/public/images/tuto.gif)
