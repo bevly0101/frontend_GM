@@ -12,5 +12,5 @@
 
 # How to use :grey_question:
 
-## download musics from spotify and YouTube links
+## download musics with the name song:
 ![](https://github.com/bevly0101/frontend_gm/blob/main/public/images/tuto.gif)
