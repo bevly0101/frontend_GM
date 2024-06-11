@@ -13,5 +13,5 @@
 # How to use :grey_question:
 
 ## download musics from spotify and YouTube links
-[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+[<img src="" width="600" height="300"
 />](https://www.youtube.com/embed/<VIDEO_ID>)
