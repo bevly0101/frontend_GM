@@ -13,5 +13,4 @@
 # How to use :grey_question:
 
 ## download musics from spotify and YouTube links
-[<img src="https://github.com/bevly0101/frontend_gm/blob/main/public/images/logoApp.jpg" width="600" height="300"
-/>](https://github.com/bevly0101/frontend_gm/blob/main/public/images/tuto.gif)
+![](https://github.com/bevly0101/frontend_gm/blob/main/public/images/tuto.gif)
